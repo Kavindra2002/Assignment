@@ -1,7 +1,0 @@
-
-main()
-{
-    printf("welcome");
-    getch();
-
-}
