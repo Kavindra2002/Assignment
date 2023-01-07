@@ -221,17 +221,12 @@ int firstoccurance(int a[],int n)
             if(a[i]==a[j])
             {
                 temp=a[i];
-                break;
+                return temp;
             }
 
         }
-        if(a[i]==a[j])
-            {
-                temp=a[i];
-                break;
-            }
     }
-    return temp;
+    
 }
 
 //6. Write a function in C to read n number of values in an array and display it in reverse order
