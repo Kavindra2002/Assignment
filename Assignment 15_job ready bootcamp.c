@@ -278,13 +278,9 @@ int duplicatevalues(int a[],int n)
         for(j=i+1;j<n;j++)
         {
             if(a[i]==a[j])
-            {
-                temp=a[i];
                 count++;
-            }
         }
-
-
+        
     }
     return count;
 }
