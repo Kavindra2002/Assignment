@@ -132,7 +132,7 @@ int main()
             if(i%j==0)
             count++;
         }
-         if(count==0)
+         if(count==0&&i!=1)
             printf("%d ",i);
          count=0;
 
@@ -183,7 +183,7 @@ int main()
             if(i%j==0)
             count++;
         }
-         if(count==0)
+         if(count==0&&i!=a)
          {
              printf("Next prime number is %d ",i);
              break;
