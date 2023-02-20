@@ -2,10 +2,10 @@
 #include<stdio.h>
 int main()
 {
-    int n,i,a=0,b=1,c;
+    int n,i,a=-1,b=1,c;
     printf("enter the nth term ");
     scanf("%d",&n);
-    for(i=1;i<=n-1;i++)
+    for(i=1;i<=n;i++)
     {
         c=a+b;
         a=b;
@@ -21,12 +21,11 @@ int main()
 #include<stdio.h>
 int main()
 {
-    int n,i,a=0,b=1,c;
+    int n,i,a=-1,b=1,c;
     printf("enter the nth term ");
     scanf("%d",&n);
-
-    printf("1 ");
-    for(i=1;i<=n-1;i++)
+    
+    for(i=1;i<=n;i++)
     {
         c=a+b;
           printf("%d ",c);
